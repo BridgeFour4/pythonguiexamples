@@ -9,9 +9,9 @@ class Application(Frame):
     def create_widgets(self):
         self.configure(bg="silver")
         self.labelone = Label(self,text= "Enter password for the secret life")
-        self.labelone.grid(row=0, column=0,columnspan=2,sticky=W)
+        self.labelone.grid(row=0, column=0,columnspan=2,sticky=EW)
         self.labeltwo= Label(self, text="password:")
-        self.labeltwo.grid(row=1, column=0, sticky=W)
+        self.labeltwo.grid(row=1, column=0, sticky=EW)
         self.pw_ent =Entry(self,bg="black")
         self.pw_ent.grid(row=2, column=0, columnspan=2, sticky=W)
 
